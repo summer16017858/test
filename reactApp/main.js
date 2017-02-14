@@ -1,0 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import App from './App.jsx';
+ReactDOM.render(<App interval={100} number={4} boxStyle="content" interval={4000} width={400}><li className="boxStyleLi"><img src="http://upload-images.jianshu.io/upload_images/971705-6d38b15221a904c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""/></li>  <li className="boxStyleLi"><img src="http://upload-images.jianshu.io/upload_images/971705-1ebf3743a7d163c7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""/></li>  <li className="boxStyleLi"><img src="http://upload-images.jianshu.io/upload_images/971705-1158b127a710879a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""/></li>  <li className="boxStyleLi"><img src="http://upload-images.jianshu.io/upload_images/971705-2c8d6d5d8d3b59bc.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""/></li></App>,document.getElementById('example'));
